@@ -1,0 +1,54 @@
+".container": {
+	backgroundColor: "white",
+	backgroundImage:"/images/bg.jpg",
+	layout:"vertical"
+},
+".titleBar": {
+	backgroundColor: "#d62a38",
+	top:80,
+	left:0,
+	right:0,
+	height:40
+},
+".loginTitle": {
+	color: "white",
+	left:25,
+	font:{
+		fontSize:18,
+		fontWeight:"bold"
+	}
+},
+".loginContent": {
+	left:20,
+	right:20,
+	top:10
+},
+".emailLabel": {
+	left:10,
+	color:"#4b4b4b"
+},
+".emailTxt": {
+	left:0,
+	top:20,
+	width:160
+},
+".emailLabel": {
+	top:60,
+	left:10,
+	color:"#4b4b4b"
+},
+".passTxt": {
+	left:0,
+	top:80,
+	width:160
+},
+".regButton": {
+	left:15,
+	top:140,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+".submitButton": {
+	right:15,
+	top:140,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+}

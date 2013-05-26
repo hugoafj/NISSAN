@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container">
+		<View class="titleBar">
+			<Label class="loginTitle">Iniciar Sesion</Label>
+		</View>
+		<View class="loginContent">
+			<Label class="emailLabel">Correo</Label>
+			<Textfield class="emailTxt"/>
+			<Label class="passLabel">Contraseña</Label>
+			<Textfield class="passTxt"/>
+			<Button class="regButton">Registro</Button>
+			<Button class="submitLabel">Entrar</Button>
+		</View>
+	</Window>
+</Alloy>
