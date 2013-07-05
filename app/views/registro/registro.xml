@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="win" class="container">
+		<View class="titleBar">
+			<Label class="loginTitle">Registro</Label>
+		</View>
+		<ScrollView class="loginContent">
+			<Label class="emailLabel">Nombre</Label>
+			<TextField class="emailTxt"/>
+			<Label class="emailLabel">Facebook y/o e-mail</Label>
+			<TextField class="emailTxt"/>
+			<Label class="emailLabel">Auto</Label>
+			<TextField class="emailTxt"/>
+			<Label class="emailLabel">Cumpleaños</Label>
+			<TextField class="emailTxt"/>
+			<Label class="emailLabel">Evento Favorito</Label>
+			<TextField class="emailTxt"/>
+			<Label class="emailLabel">Contraseña</Label>
+			<TextField class="emailTxt"/>
+			<Label class="emailLabel">Confirmar Contraseña</Label>
+			<TextField class="emailTxt"/>
+			<View height="50">
+				<Button class="regButton" onClick="cancelar"></Button>
+				<Button class="submitButton" onClick="finalizar"></Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

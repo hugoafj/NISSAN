@@ -5,11 +5,13 @@
 		</View>
 		<View class="loginContent">
 			<Label class="emailLabel">Correo</Label>
-			<Textfield class="emailTxt"/>
+			<TextField class="emailTxt"/>
 			<Label class="passLabel">Contraseña</Label>
-			<Textfield class="passTxt"/>
-			<Button class="regButton">Registro</Button>
-			<Button class="submitLabel">Entrar</Button>
+			<TextField class="passTxt"/>
+			<View >
+				<Button class="regButton" onClick="openRegistro"></Button>
+				<Button class="submitButton" onClick="entrar"></Button>
+			</View>
 		</View>
 	</Window>
 </Alloy>

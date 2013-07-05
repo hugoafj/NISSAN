@@ -1,0 +1,5 @@
+".container": {
+	backgroundColor: "white",
+	backgroundImage:"/images/bg.jpg",
+	layout:"vertical"
+},

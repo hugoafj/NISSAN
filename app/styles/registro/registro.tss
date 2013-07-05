@@ -22,30 +22,19 @@
 	left:20,
 	right:20,
 	layout:"vertical",
-	bottom:80
+	bottom:10,
+	contentHeight:Ti.UI.SIZE
 },
 ".emailLabel": {
-	top:5,
+	top:4,
 	left:10,
 	color:"#4b4b4b"
 },
 ".emailTxt": {
 	left:10,
 	right:10,
-	top:5,
+	top:2,
 	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
-},
-".passLabel": {
-	top:5,
-	left:10,
-	color:"#4b4b4b"
-},
-".passTxt": {
-	left:10,
-	right:10,
-	top:5,
-	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	passwordMask:true,
 },
 ".regButton": {
 	left:15,
@@ -53,13 +42,13 @@
 	height:40,
 	width:120,
 	//borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
-	backgroundImage: "/images/registrarme.png",
+	backgroundImage: "/images/cancelar.png",
 },
 ".submitButton": {
 	right:15,
-	top:5,
-	height:49,
-	width:110,
+	top:10,
+	height:40,
+	width:120,
 	//borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
-	backgroundImage: "/images/entrar.png",
+	backgroundImage: "/images/finalizar.png",
 }
