@@ -1,5 +1,97 @@
 ".container": {
 	backgroundColor: "white",
-	backgroundImage:"/images/bg.jpg",
+	backgroundImage:"/images/bg.jpg"
+},
+".menuBar": {
+	backgroundImage:"/images/menubar.png",
+	bottom:0,
+	left:0,
+	right:0,
+	height:50,
+	layout:"horizontal"
+},
+".boxcontainer": {
+	backgroundImage:"/images/bginicio.png",
+	bottom:50,
+	left:0,
+	right:0,
+	height:320
+},
+".facebook": {
+	height:50,
+	width:"25%",
+	layout:"vertical",
+	top:3
+},
+".label": {
+	color:"white",
+	font:{fontSize:13}
+},
+".iconFacebook": {
+	image:"/images/mas.png",
+	height:25,
+	width:25
+},
+".lonuevo": {
+	height:50,
+	width:"25%",
+	layout:"vertical",
+	top:3
+},
+".iconLoNuevo": {
+	image:"/images/lonuevo.png",
+	height:25,
+	width:25
+},
+".eventos": {
+	height:50,
+	width:"25%",
+	layout:"vertical",
+	top:3
+},
+".iconEventos": {
+	image:"/images/eventos.png",
+	height:25,
+	width:25
+},
+".mas": {
+	height:50,
+	width:"25%",
+	layout:"vertical",
+	top:3
+},
+".iconMas": {
+	image:"/images/mas.png",
+	height:25,
+	width:25
+},
+".options": {
+	backgroundColor:"transparent",
+	height:Ti.UI.SIZE,
+	width:200,
+	top:20,
+	left:20,
 	layout:"vertical"
 },
+".option": {
+	backgroundImage:"/images/option_black.png",
+	height:30,
+	width:200,
+},
+".labelOption": {
+	color:"white",
+	font:{fontSize:15},
+	left:8
+},
+".vertLine": {
+	backgroundColor:"white",
+	right:30,
+	height:26,
+	width:1
+}
+".row": {
+	backgroundImage:"/images/option_row.png",
+	right:5,
+	height:15,
+	width:15
+}

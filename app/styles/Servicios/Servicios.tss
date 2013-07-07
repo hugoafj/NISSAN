@@ -1,0 +1,100 @@
+".container": {
+	backgroundColor: "white",
+	backgroundImage:"/images/bg.jpg"
+},
+".boxcontainer": {
+	backgroundColor:"transparent",
+	bottom:0,
+	left:0,
+	right:0,
+	top:80,
+	layout:"vertical"
+},
+".option": {
+	backgroundImage:"/images/option_black.png",
+	height:30,
+	width:200,
+	top:5,
+	left:10
+},
+".labelOption": {
+	color:"white",
+	font:{fontSize:15},
+	left:8
+},
+".vertLine": {
+	backgroundColor:"white",
+	right:30,
+	height:26,
+	width:1
+},
+".row": {
+	backgroundImage:"/images/option_row.png",
+	right:5,
+	height:15,
+	width:15
+},
+".graybx": {
+	backgroundColor:"gray",
+	height:30,
+	right:10,
+	top:0,
+	left:10,
+	borderColor:"black",
+	borderRadius:1
+},
+".mantIcon": {
+	backgroundImage:"/images/option_row.png",
+	left:5,
+	height:15,
+	width:15
+},
+".labelGB": {
+	color:"white",
+	font:{fontSize:18},
+	left:25
+},
+".horBx": {
+	layout:"horizontal",
+	left:10,
+	right:10,
+	height:28,
+	top:5
+},
+".labelSw": {
+	color:"gray",
+	font:{fontSize:13},
+	left:3
+},
+".switch": {
+	value:false
+},
+".labelDetail": {
+	color:"black",
+	font:{fontSize:15},
+	top:10,
+	left:10
+},
+".labelHora": {
+	color:"gray",
+	font:{fontSize:15},
+	left:10
+},
+".fecha": {
+	hintText:"dd/mm/aa",
+	width:100,
+	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	left:3
+},
+".hora": {
+	hintText:"hh:mm am/pm",
+	width:125,
+	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	left:3
+},
+".asesor": {
+	hintText:"seleccionar",
+	width:242,
+	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	left:3
+}

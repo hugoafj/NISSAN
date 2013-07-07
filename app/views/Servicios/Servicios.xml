@@ -1,0 +1,79 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView class="boxcontainer">
+			<View class="option">
+				<Label class="labelOption">Citas de Servicios</Label>
+				<View class="vertLine"></View>
+				<View class="row"></View>
+			</View>
+			<View class="graybx">
+				<View class="mantIcon"></View>
+				<Label class="labelGB">Mantenimiento</Label>
+			</View>
+			<View class="horBx">
+				<Switch class="switch"></Switch>
+				<Label class="labelSw" width="90">5000km</Label>
+				<Switch class="switch"></Switch>
+				<Label class="labelSw">30km</Label>
+			</View>
+			<View class="horBx">
+				<Switch class="switch"></Switch>
+				<Label class="labelSw" width="90">10000km</Label>
+				<Switch class="switch"></Switch>
+				<Label class="labelSw">40km</Label>
+			</View>
+			<View class="horBx">
+				<Switch class="switch"></Switch>
+				<Label class="labelSw" width="90">15000km</Label>
+				<Switch class="switch"></Switch>
+				<Label class="labelSw">50km</Label>
+			</View>
+			<View class="horBx">
+				<Switch class="switch"></Switch>
+				<Label class="labelSw" width="90">20km</Label>
+				<Switch class="switch"></Switch>
+				<Label class="labelSw">60km</Label>
+			</View>
+			
+			<View class="graybx" top="5">
+				<View class="mantIcon"></View>
+				<Label class="labelGB">Reparacion</Label>
+			</View>
+			<View class="horBx">
+				<Switch class="switch"></Switch>
+				<Label class="labelSw" width="64">Afinacion</Label>
+				<Switch class="switch"></Switch>
+				<Label class="labelSw">Detallado</Label>
+			</View>
+			<View class="horBx">
+				<Switch class="switch"></Switch>
+				<Label class="labelSw" width="64">Frenos</Label>
+				<Switch class="switch"></Switch>
+				<Label class="labelSw">transmision</Label>
+			</View>
+			<View class="horBx">
+				<Switch class="switch"></Switch>
+				<Label class="labelSw" width="64">Suspencion</Label>
+				<Switch class="switch"></Switch>
+				<Label class="labelSw">Garantia</Label>
+			</View>
+			<View class="horBx">
+				<Switch class="switch"></Switch>
+				<Label class="labelSw" width="64">Motor</Label>
+			</View>
+			
+			<Label class="labelDetail">Espesificar algun detalle del servicio a relizar</Label>
+			<Label class="labelHora">Espeficicar Dia, Hora y Asesor</Label>
+			<View class="horBx">
+				<Label class="labelSw">Dia:</Label>
+				<TextField class="fecha"/>
+				<Label class="labelSw">Hora:</Label>
+				<TextField class="hora"/>
+			</View>
+			<View class="horBx">
+				<Label class="labelSw">Asesor:</Label>
+				<TextField class="asesor"/>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

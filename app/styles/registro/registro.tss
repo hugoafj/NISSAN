@@ -19,11 +19,12 @@
 	}
 },
 ".loginContent": {
-	left:20,
-	right:20,
+	left:18,
+	right:18,
 	layout:"vertical",
 	bottom:10,
-	contentHeight:Ti.UI.SIZE
+	contentHeight:Ti.UI.SIZE,
+	backgroundImage: "/images/bgbox.png",
 },
 ".emailLabel": {
 	top:4,

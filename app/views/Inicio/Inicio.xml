@@ -1,6 +1,51 @@
 <Alloy>
 	<Window class="container">
+		<View class="boxcontainer">
+			<View class="options">
+				<View class="option" onClick="openServicios">
+					<Label class="labelOption">Citas de Servicios</Label>
+					<View class="vertLine"></View>
+					<View class="row"></View>
+				</View>
+				<View class="option">
+					<Label class="labelOption">Notificaciones</Label>
+					<View class="vertLine"></View>
+					<View class="row"></View>
+				</View>
+				<View class="option">
+					<Label class="labelOption">Pruebas de manejo</Label>
+					<View class="vertLine"></View>
+					<View class="row"></View>
+				</View>
+				<View class="option">
+					<Label class="labelOption">Galeria de autos</Label>
+					<View class="vertLine"></View>
+					<View class="row"></View>
+				</View>
+				<View class="option">
+					<Label class="labelOption">Contacto</Label>
+					<View class="vertLine"></View>
+					<View class="row"></View>
+				</View>
+			</View>
+		</View>
 		<View class="menuBar">
+			<View class="facebook">
+				<ImageView class="iconFacebook"></ImageView>
+				<Label class="label">facebook</Label>
+			</View>
+			<View class="lonuevo">
+				<ImageView class="iconLoNuevo"></ImageView>
+				<Label class="label">lo nuevo</Label>
+			</View>
+			<View class="eventos">
+				<ImageView class="iconEventos"></ImageView>
+				<Label class="label">eventos</Label>
+			</View>
+			<View class="mas">
+				<ImageView class="iconMas"></ImageView>
+				<Label class="label">mas</Label>
+			</View>
 		</View>
 	</Window>
 </Alloy>
