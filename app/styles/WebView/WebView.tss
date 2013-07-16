@@ -1,0 +1,49 @@
+".container": {
+	backgroundColor: "white",
+	navBarHidden:true,
+	layout:"vertical",
+	backgroundImage:"/images/background.png",
+	backgroundRepeat:true
+},
+// NAV BAR
+".leftButton[platform=ios]": {
+	width:24,
+	height:20,
+	top:10,
+	left:10,
+	text:" < ",
+	color:"white",
+	visible:true
+},".leftButton[platform=android]": {
+	width:10,
+	height:20,
+	top:10,
+	left:10,
+	text:" < ",
+	color:"white",
+	visible:true
+},
+".navBar": {
+	height:44,
+	top:0,
+	left:0,
+	right:0,
+	backgroundColor:"red"
+},
+".title[platform=ios]": {
+	left:30,
+	color:"white",
+	font:{
+		fontSize:18,
+		fontFamily: 'Champagne & Limousines'
+	}
+},
+".title[platform=android]": {
+	left:30,
+	color:"white",
+	font:{
+		fontSize:18,
+		fontFamily: 'ChampagneLimousines'
+	}
+},
+// NAV BAR

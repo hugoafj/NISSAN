@@ -44,14 +44,13 @@
 	borderRadius:1
 },
 ".mantIcon": {
-	backgroundImage:"/images/option_row.png",
 	left:5,
 	height:15,
 	width:15
 },
 ".labelGB": {
 	color:"white",
-	font:{fontSize:18},
+	font:{fontSize:14},
 	left:25
 },
 ".horBx": {
@@ -68,35 +67,6 @@
 },
 ".switch": {
 	value:false
-},
-".labelDetail": {
-	color:"black",
-	font:{fontSize:14},
-	top:10,
-	left:10
-},
-".labelHora": {
-	color:"gray",
-	font:{fontSize:13},
-	left:10
-},
-".fecha": {
-	hintText:"dd/mm/aa",
-	width:100,
-	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	left:3
-},
-".hora": {
-	hintText:"hh:mm am/pm",
-	width:125,
-	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	left:3
-},
-".asesor": {
-	hintText:"seleccionar",
-	width:242,
-	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	left:3
 },
 ".regButton": {
 	left:15,

@@ -44,14 +44,13 @@
 	borderRadius:1
 },
 ".mantIcon": {
-	backgroundImage:"/images/option_row.png",
 	left:5,
 	height:15,
 	width:15
 },
 ".labelGB": {
 	color:"white",
-	font:{fontSize:18},
+	font:{fontSize:14},
 	left:25
 },
 ".horBx": {
@@ -69,35 +68,6 @@
 ".switch": {
 	value:false
 },
-".labelDetail": {
-	color:"black",
-	font:{fontSize:14},
-	top:10,
-	left:10
-},
-".labelHora": {
-	color:"gray",
-	font:{fontSize:13},
-	left:10
-},
-".fecha": {
-	hintText:"dd/mm/aa",
-	width:100,
-	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	left:3
-},
-".hora": {
-	hintText:"hh:mm am/pm",
-	width:125,
-	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	left:3
-},
-".asesor": {
-	hintText:"seleccionar",
-	width:242,
-	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	left:3
-},
 ".regButton": {
 	left:15,
 	top:10,
@@ -113,4 +83,34 @@
 	width:120,
 	//borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
 	backgroundImage: "/images/finalizar.png",
+},
+".labelDetail": {
+	color:"black",
+	font:{fontSize:18},
+	top:20
+},
+".labelTel": {
+	color:"blue",
+	font:{fontSize:14},
+	top:5,
+	left:10,
+	right:10
+},
+".labelAddress": {
+	color:"gray",
+	font:{fontSize:13},
+	top:0,
+	left:10,
+	right:10
+},
+".sitioBtn": {
+	backgroundColor:"#333333",
+	top:10,
+	height:40,
+	width:150,
+	borderRadius:5
+},
+".sitioLbl": {
+	color:"white",
+	font:{fontSize:20},
 }

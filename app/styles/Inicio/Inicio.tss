@@ -28,7 +28,7 @@
 	font:{fontSize:13}
 },
 ".iconFacebook": {
-	image:"/images/mas.png",
+	image:"/images/faceIcon.png",
 	height:25,
 	width:25
 },
@@ -76,7 +76,7 @@
 ".option": {
 	backgroundImage:"/images/option_black.png",
 	height:30,
-	width:200,
+	width:200
 },
 ".labelOption": {
 	color:"white",

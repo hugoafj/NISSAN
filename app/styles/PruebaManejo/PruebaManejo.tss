@@ -1,0 +1,75 @@
+".container": {
+	backgroundColor: "white",
+	backgroundImage:"/images/bg.jpg"
+},
+".boxcontainer": {
+	backgroundColor:"transparent",
+	bottom:0,
+	left:0,
+	right:0,
+	top:80,
+	layout:"vertical"
+},
+".option": {
+	backgroundImage:"/images/option_red.png",
+	height:30,
+	width:200,
+	top:5,
+	left:10
+},
+".labelOption": {
+	color:"white",
+	font:{fontSize:15},
+	left:8
+},
+".vertLine": {
+	backgroundColor:"white",
+	right:30,
+	height:26,
+	width:1
+},
+".row": {
+	backgroundImage:"/images/option_row.png",
+	right:5,
+	height:15,
+	width:15
+},
+".regButton": {
+	left:15,
+	top:10,
+	height:40,
+	width:120,
+	//borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+	backgroundImage: "/images/cancelar.png"
+},
+".imagen": {
+	top:20,
+	left:10,
+	height:60,
+	width:150,
+	backgroundColor:"transparent",
+	layout:"horizontal"
+},
+".imagenVel": {
+	height:50,
+	width:50,
+	backgroundImage: "/images/vel.png"
+},
+".imagenLogo": {
+	height:40,
+	width:90,
+	backgroundImage: "/images/pruebaLogo.png"
+},
+".labelDesc": {
+	color:"#333333",
+	font:{fontSize:13},
+	top:10,
+	left:10,
+	right:10
+},
+".labelPage": {
+	color:"#blue",
+	font:{fontSize:13},
+	left:10,
+	right:10
+}

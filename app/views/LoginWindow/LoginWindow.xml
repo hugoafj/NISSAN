@@ -5,9 +5,9 @@
 		</View>
 		<View class="loginContent">
 			<Label class="emailLabel">Correo</Label>
-			<TextField class="emailTxt"/>
+			<TextField id="email" class="emailTxt"/>
 			<Label class="passLabel">Contraseña</Label>
-			<TextField class="passTxt"/>
+			<TextField id="pass" class="passTxt"/>
 			<View >
 				<Button class="regButton" onClick="openRegistro"></Button>
 				<Button class="submitButton" onClick="entrar"></Button>

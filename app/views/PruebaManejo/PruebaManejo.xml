@@ -1,0 +1,24 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ScrollView class="boxcontainer">
+			<View class="option">
+				<Label class="labelOption">Prueba de manejo</Label>
+				<View class="vertLine"></View>
+				<View class="row"></View>
+			</View>
+			<View class="imagen">
+				<View class="imagenVel"></View>
+				<View class="imagenLogo"></View>
+			</View>
+		
+			<Label class="labelDesc" >Por que no hay nada que se compare con la experiencia de manejar, te invitamos a que agendes con nosotros tu Prueba de Manejo.</Label>
+			<Label class="labelPage" >Toca aqui para llenar el formulario</Label>
+			
+			
+
+			<View height="50">
+				<Button class="regButton" onClick="cancelar"></Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

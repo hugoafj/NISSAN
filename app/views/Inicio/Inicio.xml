@@ -7,30 +7,33 @@
 					<View class="vertLine"></View>
 					<View class="row"></View>
 				</View>
-				<View class="option">
+				<View class="option" onClick="openNotificaciones">
 					<Label class="labelOption">Notificaciones</Label>
 					<View class="vertLine"></View>
 					<View class="row"></View>
 				</View>
-				<View class="option">
+				<View class="option" onClick="openPruebaManejo">
 					<Label class="labelOption">Pruebas de manejo</Label>
 					<View class="vertLine"></View>
 					<View class="row"></View>
 				</View>
-				<View class="option">
+				<View class="option" onClick="openGaleria">
 					<Label class="labelOption">Galeria de autos</Label>
 					<View class="vertLine"></View>
 					<View class="row"></View>
 				</View>
-				<View class="option">
-					<Label class="labelOption">Contacto</Label>
+				<View class="option" onClick="openContacto">
+					<Label class="labelOption" >Contacto</Label>
 					<View class="vertLine"></View>
 					<View class="row"></View>
+				</View>
+				<View class="option" onClick="openLogin">
+					<Label class="labelOption" >Cerrar Sesion</Label>
 				</View>
 			</View>
 		</View>
 		<View class="menuBar">
-			<View class="facebook">
+			<View class="facebook" onClick="openFace">
 				<ImageView class="iconFacebook"></ImageView>
 				<Label class="label">facebook</Label>
 			</View>

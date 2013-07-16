@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="container">
+	<Window id="win" class="container">
 		<ScrollView class="boxcontainer">
 			<View class="option">
 				<Label class="labelOption">Citas de Servicios</Label>
@@ -73,6 +73,10 @@
 			<View class="horBx">
 				<Label class="labelSw">Asesor:</Label>
 				<TextField class="asesor"/>
+			</View>
+			<View height="50">
+				<Button class="regButton" onClick="cancelar"></Button>
+				<Button class="submitButton" onClick="finalizar"></Button>
 			</View>
 		</ScrollView>
 	</Window>
