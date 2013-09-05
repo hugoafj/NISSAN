@@ -2,7 +2,7 @@
 	<Window id="win" class="container">
 		<ScrollView class="boxcontainer">
 			<View class="option">
-				<Label class="labelOption">Notificaciones</Label>
+				<Label class="labelOption">Eventos</Label>
 				<View class="vertLine"></View>
 				<View class="row"></View>
 			</View>
@@ -47,32 +47,104 @@
 				<View class="mantIcon"></View>
 				<Label class="labelGB">Concursos para ganar accesos VIP</Label>
 			</View>
+			<View class="autoBx">
+                <View class="autoImage" backgroundImage="/images/thumb_romeo.png"></View>
+                <Label class="labelTitulo" >Romeo Santos</Label>
+                <Label class="labelDesc" >Participa en la trivia de nuestra pagina en Facebook y gana Boletos!!!</Label>
+                <!--<Label class="labelPage" >www.nissantijuana.com.mx</Label>-->
+            </View>
+            <View class="autoBx">
+                <View class="autoImage" backgroundImage="/images/thumb_margara.png"></View>
+                <Label class="labelTitulo" >Margarita</Label>
+                <Label class="labelDesc" >Quieres ganar boletos VIP, hablanos por telefono a sucursal RioTJ. la llamada numero 150 ganara un par de boletos!!!</Label>
+                <!--<Label class="labelPage" >www.nissantijuana.com.mx</Label>-->
+            </View>
+            <View class="autoBx">
+                <View class="autoImage" backgroundImage="/images/thumb_idolos.png"></View>
+                <Label class="labelTitulo" >Idolos en Concierto</Label>
+                <Label class="labelDesc" >Participa en nuestra pagina de Facebook para ganar Boletos!!!</Label>
+                <!--<Label class="labelPage" >www.nissantijuana.com.mx</Label>-->
+            </View>
+            
 			<View class="graybx" top="5">
 				<View class="mantIcon"></View>
 				<Label class="labelGB">Lanzamiento de nuevos autos Nissan</Label>
 			</View>
+			<View class="autoBx">
+                <View class="autoImage" backgroundImage="/images/demo_note.png"></View>
+                <Label class="labelTitulo" >Totalmente Nuevo Note</Label>
+                <Label class="labelDesc" >La novedosa forma de sus faros esta pensada para brindarle mayor visibilidad.</Label>
+                <Label class="labelPage" >www.nissantijuana.com.mx</Label>
+            </View>
+            <View class="autoBx">
+                <View class="autoImage" backgroundImage="/images/demo_tsuru.png"></View>
+                <Label class="labelTitulo" >T-Suru 2014</Label>
+                <Label class="labelDesc" >Siempre reconocido por sus calidad, Para ver mas fotos visita nuestra pagina</Label>
+                <Label class="labelPage" >www.nissantijuana.com.mx</Label>
+            </View>
+            <View class="autoBx">
+                <View class="autoImage" backgroundImage="/images/nv359.png"></View>
+                <Label class="labelTitulo" >Nueva NV350 2014</Label>
+                <Label class="labelDesc" >Nueva version amplia con mayores dimensiones, con 15 versiones diferentes.</Label>
+                <Label class="labelPage" >www.nissantijuana.com.mx</Label>
+            </View>
+            
 			<View class="graybx" top="5">
 				<View class="mantIcon"></View>
 				<Label class="labelGB">Eventos de oportunidad de credito</Label>
 			</View>
-			<View class="graybx" top="5" height="55">
-				<View class="mantIcon"></View>
-				<Label class="labelGB">Conducir nuevos lazamientos \nTesting Nissan 2013</Label>
-			</View>
+			<View class="autoBx">
+                <View class="autoImage" backgroundImage="/images/demo_opor.png"></View>
+                <Label class="labelTitulo" >8:00 am y Scotiabank</Label>
+                <Label class="labelDesc" >Se unen para traerte excelentes planes crediticios en toda la linea Comercial. Estrena con Seguro Gratis durante el mes de Junio 2013. Ven y Conoce la linea Nissan Comercial 2013-2014 y Renueva tus vehiculos.</Label>
+                <!--<Label class="labelPage" >www.nissantijuana.com.mx</Label>-->
+            </View>
+            
+            <View class="autoBx">
+                <View class="autoImage" backgroundImage="/images/expIcon.jpg"></View>
+                <Label class="labelTitulo" >Expedicion Baja Nissan</Label>
+                <Label class="labelDesc" >Trae para ti un 10% en toda la linea Comercial.</Label>
+                <!--<Label class="labelPage" >www.nissantijuana.com.mx</Label>-->
+            </View>
+            
 			<View class="graybx" top="5">
 				<View class="mantIcon"></View>
-				<Label class="labelGB">Recibir bonos y cipones de servicio-ventas</Label>
+				<Label class="labelGB">Conducir nuevos lazamientos</Label>
 			</View>
+			<View class="sitioBtn" onClick="openTesting"><Label class="sitioLbl" >Testing Nissan 2013 ></Label></View>
+			
+			<View class="graybx" top="5">
+				<View class="mantIcon"></View>
+				<Label class="labelGB">Recibir bonos y cupones de servicio-ventas</Label>
+			</View>
+			<View class="autoBx">
+                <View class="autoImage" backgroundImage="/images/cupon.png" height="40" width="40"></View>
+                <Label class="labelTitulo" >Cupon de HYP</Label>
+                <Label class="labelDesc" >Acabas de recibir un cupon de HYP.</Label>
+                <!--<Label class="labelPage" >www.nissantijuana.com.mx</Label>-->
+            </View>
+            <View class="autoBx" right="10">
+                <View class="autoImage" backgroundImage="/images/cuponHYP.png" width="250"></View>
+            </View>
+            <View class="autoBx">
+                <View class="autoImage" backgroundImage="/images/cuponRef.png"height="40" width="40"></View>
+                <Label class="labelTitulo" >Cupon de Referencia</Label>
+                <Label class="labelDesc" >Acabas de recibir un Cupon de refacciones.</Label>
+                <!--<Label class="labelPage" >www.nissantijuana.com.mx</Label>-->
+            </View>
+            
+            
 			<View class="graybx" top="5">
 				<View class="mantIcon"></View>
 				<Label class="labelGB">Nuevos accesorios para tu Nissan</Label>
 			</View>
+			<View class="sitioBtn" onClick="openURL"><Label class="sitioLbl" >Ver Accesorios ></Label></View>
 
 
 
 
 
-			<View height="50">
+			<View height="50" top="60">
 				<Button class="regButton" onClick="cancelar"></Button>
 				<Button class="submitButton" onClick="finalizar"></Button>
 			</View>

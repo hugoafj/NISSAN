@@ -1,6 +1,6 @@
 ".container": {
 	backgroundColor: "white",
-	backgroundImage:"/images/bg.jpg",
+	backgroundImage:"/images/bg_gen.png",
 	layout:"vertical"
 },
 ".titleBar": {
@@ -24,7 +24,7 @@
 	layout:"vertical",
 	bottom:10,
 	contentHeight:Ti.UI.SIZE,
-	backgroundImage: "/images/bgbox.png",
+	backgroundImage: "/images/bgbox.png"
 },
 ".emailLabel": {
 	top:4,
@@ -43,7 +43,7 @@
 	height:40,
 	width:120,
 	//borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
-	backgroundImage: "/images/cancelar.png",
+	backgroundImage: "/images/cancelar.png"
 },
 ".submitButton": {
 	right:15,

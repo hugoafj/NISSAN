@@ -34,6 +34,40 @@
 	height:15,
 	width:15
 },
+".graybx": {
+	backgroundColor:"gray",
+	height:30,
+	right:10,
+	top:0,
+	left:10,
+	borderColor:"black",
+	borderRadius:1
+},
+".mantIcon": {
+	left:5,
+	height:15,
+	width:15
+},
+".labelGB": {
+	color:"white",
+	font:{fontSize:14},
+	left:25
+},
+".flayer": {
+	width:210,
+	height:308,
+	image:"/images/demo_flayer.png"
+},
+".flayerClinic": {
+	width:300,
+	height:308,
+	image:"/images/clinic.png"
+},
+".flayerMes": {
+	width:210,
+	height:308,
+	image:"/images/imgMes.png"
+},
 ".regButton": {
 	left:15,
 	top:10,
@@ -41,35 +75,4 @@
 	width:120,
 	//borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
 	backgroundImage: "/images/cancelar.png"
-},
-".imagen": {
-	top:20,
-	left:10,
-	height:60,
-	width:150,
-	backgroundColor:"transparent",
-	layout:"horizontal"
-},
-".imagenVel": {
-	height:50,
-	width:50,
-	backgroundImage: "/images/vel.png"
-},
-".imagenLogo": {
-	height:40,
-	width:90,
-	backgroundImage: "/images/pruebaLogo.png"
-},
-".labelDesc": {
-	color:"#333333",
-	font:{fontSize:13},
-	top:10,
-	left:10,
-	right:10
-},
-".labelPage": {
-	color:"#blue",
-	font:{fontSize:13},
-	left:10,
-	right:10
 }

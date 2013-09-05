@@ -6,7 +6,9 @@
 				<View class="vertLine"></View>
 				<View class="row"></View>
 			</View>
-			<View class="graybx" top="0">
+			
+			<View class="sitioBtn" onClick="openURL"><Label class="sitioLbl" >Ver Galeria ></Label></View>
+			<!--<View class="graybx" top="0">
 				<View class="mantIcon"></View>
 				<Label class="labelGB">Linea Comercial</Label>
 			</View>
@@ -38,7 +40,7 @@
 				<Label class="labelTitulo" >T-Suru 2014</Label>
 				<Label class="labelDesc" >Siempre reconocido por sus calidad, Para ver mas fotos visita nuestra pagina</Label>
 				<Label class="labelPage" >www.nissantijuana.com.mx</Label>
-			</View>
+			</View>-->
 			
 			
 

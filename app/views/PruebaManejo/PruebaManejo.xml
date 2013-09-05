@@ -12,7 +12,7 @@
 			</View>
 		
 			<Label class="labelDesc" >Por que no hay nada que se compare con la experiencia de manejar, te invitamos a que agendes con nosotros tu Prueba de Manejo.</Label>
-			<Label class="labelPage" >Toca aqui para llenar el formulario</Label>
+			<Label class="labelPage" onClick="openURL">Toca aqui para llenar el formulario</Label>
 			
 			
 

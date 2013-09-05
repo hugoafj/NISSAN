@@ -8,7 +8,7 @@
 					<View class="row"></View>
 				</View>
 				<View class="option" onClick="openNotificaciones">
-					<Label class="labelOption">Notificaciones</Label>
+					<Label class="labelOption">Eventos</Label>
 					<View class="vertLine"></View>
 					<View class="row"></View>
 				</View>
@@ -37,15 +37,15 @@
 				<ImageView class="iconFacebook"></ImageView>
 				<Label class="label">facebook</Label>
 			</View>
-			<View class="lonuevo">
+			<View class="lonuevo" onClick="loNuevo">
 				<ImageView class="iconLoNuevo"></ImageView>
 				<Label class="label">lo nuevo</Label>
 			</View>
 			<View class="eventos">
-				<ImageView class="iconEventos"></ImageView>
+				<ImageView class="iconEventos" onClick="openNotificaciones"></ImageView>
 				<Label class="label">eventos</Label>
 			</View>
-			<View class="mas">
+			<View class="mas" onClick="openMas">
 				<ImageView class="iconMas"></ImageView>
 				<Label class="label">mas</Label>
 			</View>

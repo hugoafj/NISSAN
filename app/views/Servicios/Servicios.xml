@@ -11,27 +11,27 @@
 				<Label class="labelGB">Mantenimiento</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectMan"></Switch>
 				<Label class="labelSw" width="90">5000km</Label>
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectMan"></Switch>
 				<Label class="labelSw">30km</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectMan"></Switch>
 				<Label class="labelSw" width="90">10000km</Label>
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectMan"></Switch>
 				<Label class="labelSw">40km</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectMan"></Switch>
 				<Label class="labelSw" width="90">15000km</Label>
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectMan"></Switch>
 				<Label class="labelSw">50km</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectMan"></Switch>
 				<Label class="labelSw" width="90">20km</Label>
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectMan"></Switch>
 				<Label class="labelSw">60km</Label>
 			</View>
 			
@@ -40,25 +40,25 @@
 				<Label class="labelGB">Reparacion</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectRep"></Switch>
 				<Label class="labelSw" width="64">Afinacion</Label>
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectRep"></Switch>
 				<Label class="labelSw">Detallado</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectRep"></Switch>
 				<Label class="labelSw" width="64">Frenos</Label>
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectRep"></Switch>
 				<Label class="labelSw">transmision</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectRep"></Switch>
 				<Label class="labelSw" width="64">Suspencion</Label>
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectRep"></Switch>
 				<Label class="labelSw">Garantia</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch"></Switch>
+				<Switch class="switch" onChange="selectRep"></Switch>
 				<Label class="labelSw" width="64">Motor</Label>
 			</View>
 			
@@ -66,13 +66,13 @@
 			<Label class="labelHora">Espeficicar Dia, Hora y Asesor</Label>
 			<View class="horBx">
 				<Label class="labelSw">Dia:</Label>
-				<TextField class="fecha"/>
-				<Label class="labelSw">Hora:</Label>
-				<TextField class="hora"/>
+				<TextField id="fecha" class="fecha"/>
+				<Label  class="labelSw">Hora:</Label>
+				<TextField id="hora" class="hora"/>
 			</View>
 			<View class="horBx">
 				<Label class="labelSw">Asesor:</Label>
-				<TextField class="asesor"/>
+				<TextField class="asesor" value="Hugo Armando Flores" enabled="false" />
 			</View>
 			<View height="50">
 				<Button class="regButton" onClick="cancelar"></Button>

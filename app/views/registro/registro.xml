@@ -11,7 +11,7 @@
 			<Label class="emailLabel">Auto</Label>
 			<TextField id="auto" class="emailTxt"/>
 			<Label class="emailLabel">Cumpleaños</Label>
-			<TextField id="cumple" class="emailTxt"/>
+			<TextField id="cumple" class="emailTxt" hintText="dd/mm/aaaa"/>
 			<Label class="emailLabel">Evento Favorito</Label>
 			<TextField id="evento1" class="emailTxt"/>
 			<Label class="emailLabel">Contraseña</Label>

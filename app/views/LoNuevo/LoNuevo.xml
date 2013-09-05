@@ -1,0 +1,35 @@
+<Alloy>
+    <Window id="win" class="container">
+        <ScrollView class="boxcontainer">
+            <View class="option">
+                <Label class="labelOption">Lo Nuevo</Label>
+                <View class="vertLine"></View>
+                <View class="row"></View>
+            </View>
+            <View class="graybx" top="0">
+                <View class="mantIcon"></View>
+                <Label class="labelGB">Oferta Mensual</Label>
+            </View>
+            <ImageView class="flayerMes"/>
+            
+            <View class="graybx" top="5">
+                <View class="mantIcon"></View>
+                <Label class="labelGB">Clinicas Nissan</Label>
+            </View>
+            <ImageView class="flayerClinic"/>
+        
+            
+            <View class="graybx" top="5">
+                <View class="mantIcon"></View>
+                <Label class="labelGB">Tarjeta Lealtad</Label>
+            </View>
+            <ImageView class="flayer"/>
+            
+            
+
+            <View height="50">
+                <Button class="regButton" onClick="cancelar"></Button>
+            </View>
+        </ScrollView>
+    </Window>
+</Alloy>

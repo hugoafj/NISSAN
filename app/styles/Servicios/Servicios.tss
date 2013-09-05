@@ -1,6 +1,6 @@
 ".container": {
 	backgroundColor: "white",
-	backgroundImage:"/images/bg.jpg"
+	backgroundImage:"/images/bg_gen.png"
 },
 ".boxcontainer": {
 	backgroundColor:"transparent",

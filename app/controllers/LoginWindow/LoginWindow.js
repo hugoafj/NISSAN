@@ -10,7 +10,7 @@ function entrar(){
 		//Ti.API.info("123 "+JSON.stringify(_event));
 		if(_event._result == 1){
 			if(_event._data.success == 1){
-				Alloy.createController("Inicio/Inicio").getView().open();
+				Alloy.createController("Inicio/Inicio",{mail:$.email.value}).getView().open();
 			}else{
 				alert(_event._data.error);
 			}
@@ -18,6 +18,5 @@ function entrar(){
 			alert("Oops! something went wrong, please try again.");
 		}
 	});
-	Alloy.createController("Inicio/Inicio").getView().open();
 }
 

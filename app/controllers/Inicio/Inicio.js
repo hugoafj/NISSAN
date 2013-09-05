@@ -1,6 +1,7 @@
+var args = arguments[0] || {};
 // FUNCTIONS
 function openServicios(){
-	Alloy.createController("Servicios/Servicios").getView().open();
+	Alloy.createController("Servicios/Servicios",{mail:args.mail}).getView().open();
 }
 
 function openNotificaciones(){
@@ -24,6 +25,13 @@ function openLogin(){
 }
 
 function openFace(){
-    Alloy.createController("WebView/WebView").getView().open();
+    Alloy.createController("WebView/WebView",{url:"http://www.facebook.com/nissan.ensenadatecate"}).getView().open();
 }
 
+function openMas(){
+    Alloy.createController("WebView/WebView",{url:"/images/const.png"}).getView().open();
+}
+
+function loNuevo(){
+    Alloy.createController("LoNuevo/LoNuevo").getView().open();
+}

@@ -7,4 +7,4 @@ function back(){
 
 
 // CODE
-$.webView.url = "http://www.facebook.com/hugoarmando03";
+$.webView.url = args.url;
