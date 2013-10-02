@@ -10,28 +10,50 @@
 				<View class="mantIcon"></View>
 				<Label class="labelGB">Ensenada, B.C.</Label>
 			</View>
-			<Label class="labelTel" onClick="makeCall1">Tel:(646) 176 7118 y 176 6611</Label>
+			<View height="Ti.UI.SIZE" layout="horizontal">
+			    <Label class="labelTel" onClick="makeCall1">Tel:(646) 176 7118 y 176 6611</Label>
+			    <View backgroundImage="images/callIcon.png" left="10" width="20" height="20" onClick="makeCall1">
+			    </View>
+			</View>
 			<Label class="labelAddress" >Carretera Transpeninsular 763, Valle Dorado, 22890 Ensenada, Baja California, Mexico</Label>
 
 			<View class="graybx" top="15">
 				<View class="mantIcon"></View>
 				<Label class="labelGB">Tecate, B.C.</Label>
 			</View>
-			<Label class="labelTel"  onClick="makeCall2">Tel:(665) 521 3234</Label>
+			
+			<View height="Ti.UI.SIZE" layout="horizontal">
+                <Label class="labelTel"  onClick="makeCall2">Tel:(665) 521 3234</Label>
+                <View backgroundImage="images/callIcon.png" left="10" width="20" height="20" onClick="makeCall2">
+                </View>
+            </View>
+			
 			<Label class="labelAddress" >Plaza Encino Local 4 Zona Centro</Label>
 			
 			<View class="graybx" top="15">
 				<View class="mantIcon"></View>
 				<Label class="labelGB">Tijuana, B.C. Insurgentes</Label>
 			</View>
-			<Label class="labelTel"  onClick="makeCall3">Tel:(664) 621 3353 y 55</Label>
+			
+			<View height="Ti.UI.SIZE" layout="horizontal">
+                <Label class="labelTel"  onClick="makeCall3">Tel:(664) 621 3353 y 55</Label>
+                <View backgroundImage="images/callIcon.png" left="10" width="20" height="20" onClick="makeCall3">
+                </View>
+            </View>
+			
 			<Label class="labelAddress" >Blvd, Insurgentes #15218 Tercera Etapa rio tijuana c.p. 22110</Label>
 			
 			<View class="graybx" top="15">
 				<View class="mantIcon"></View>
 				<Label class="labelGB">Tijuana, B.C. Zona Rio</Label>
 			</View>
-			<Label class="labelTel"  onClick="makeCall4">Tel:(664) 683 4311</Label>
+			
+			<View height="Ti.UI.SIZE" layout="horizontal">
+                <Label class="labelTel"  onClick="makeCall4">Tel:(664) 683 4311</Label>
+                <View backgroundImage="images/callIcon.png" left="10" width="20" height="20" onClick="makeCall4">
+                </View>
+            </View>
+			
 			<Label class="labelAddress" >Xavier Villaurrutia 9950, Zona Rio, Tijuana, Baja California, Mexico, 22320</Label>
 			
 			<Label class="labelDetail">www.nissantijuana.com.mx</Label>

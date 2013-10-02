@@ -2,12 +2,20 @@
 	backgroundColor: "white",
 	backgroundImage:"/images/bg_gen.png"
 },
-".boxcontainer": {
+".boxcontainer[platform=ios]": {
 	backgroundColor:"transparent",
 	bottom:0,
 	left:0,
 	right:0,
 	top:80,
+	layout:"vertical"
+},
+".boxcontainer[platform=android]": {
+	backgroundColor:"transparent",
+	bottom:0,
+	left:0,
+	right:0,
+	top:92,
 	layout:"vertical"
 },
 ".option": {
@@ -94,7 +102,7 @@
 	font:{fontSize:14},
 	top:5,
 	left:10,
-	right:10
+	width:Ti.UI.SIZE
 },
 ".labelAddress": {
 	color:"gray",

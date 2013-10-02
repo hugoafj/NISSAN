@@ -6,7 +6,7 @@
     <property name="acs-oauth-secret-development" type="string">JtUJq2jHYECw01rPFiiHWqrqFFRoxblz</property>
     <property name="acs-oauth-key-development" type="string">QUwS3P1BpWlbc6jvJ8ovLbIhfcoIeDjP</property>
     <property name="acs-api-key-development" type="string">O2r8a7RHoEPFJpsz0TpEcps9s9htkGPv</property>
-    <id>com.hugoafj.NISSAN</id>
+    <id>com.out.gen</id>
     <name>NISSAN</name>
     <version>1.0</version>
     <publisher>x</publisher>
@@ -34,7 +34,11 @@
             <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
         </orientations>
     </iphone>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
+            <supports-screens android:anyDensity="false"/>
+        </manifest>
+    </android>
     <mobileweb>
         <precache/>
         <splash>
@@ -47,14 +51,16 @@
         <module platform="commonjs">ti.cloud</module>
     </modules>
     <deployment-targets>
+        <target device="tizen">false</target>
         <target device="blackberry">false</target>
         <target device="android">true</target>
-        <target device="ipad">true</target>
+        <target device="ipad">false</target>
         <target device="iphone">true</target>
         <target device="mobileweb">true</target>
     </deployment-targets>
-    <sdk-version>3.0.2.GA</sdk-version>
+    <sdk-version>3.1.2.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
+    <property name="ti.deploytype">test</property>
 </ti:app>

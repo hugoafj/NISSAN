@@ -1,7 +1,7 @@
 var args = arguments[0] || {};
 // FUNCTIONS
 function openServicios(){
-	Alloy.createController("Servicios/Servicios",{mail:args.mail}).getView().open();
+	Alloy.createController("Servicios/Servicios",{mail:args.mail,pass:args.pass,idCliente:args.idCliente}).getView().open();
 }
 
 function openNotificaciones(){
@@ -21,6 +21,8 @@ function openContacto(){
 }
 
 function openLogin(){
+    Ti.App.Properties.removeProperty("usuario");
+    Ti.App.Properties.removeProperty("pass");
 	Alloy.createController("LoginWindow/LoginWindow").getView().open();
 }
 

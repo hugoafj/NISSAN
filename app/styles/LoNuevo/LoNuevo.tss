@@ -2,12 +2,20 @@
 	backgroundColor: "white",
 	backgroundImage:"/images/bg_gen.png"
 },
-".boxcontainer": {
+".boxcontainer[platform=ios]": {
 	backgroundColor:"transparent",
 	bottom:0,
 	left:0,
 	right:0,
 	top:80,
+	layout:"vertical"
+},
+".boxcontainer[platform=android]": {
+	backgroundColor:"transparent",
+	bottom:0,
+	left:0,
+	right:0,
+	top:92,
 	layout:"vertical"
 },
 ".option": {
