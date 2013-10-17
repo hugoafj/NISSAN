@@ -3,9 +3,16 @@
 	backgroundImage:"/images/bg.jpg",
 	layout:"vertical"
 },
-".titleBar": {
+".titleBar[platform=ios]": {
 	backgroundImage: "/images/titleBar.png",
 	top:80,
+	left:15,
+	right:15,
+	height:35
+},
+".titleBar[platform=android]": {
+	backgroundImage: "/images/titleBar.png",
+	top:88,
 	left:15,
 	right:15,
 	height:35
@@ -18,11 +25,18 @@
 		fontWeight:"bold"
 	}
 },
-".loginContent": {
+".loginContent[platform=ios]": {
 	left:18,
 	right:18,
 	layout:"vertical",
 	height:190,
+	backgroundImage: "/images/bgbox.png",
+},
+".loginContent[platform=android]": {
+	left:18,
+	right:18,
+	layout:"vertical",
+	height:230,
 	backgroundImage: "/images/bgbox.png",
 },
 ".emailLabel": {

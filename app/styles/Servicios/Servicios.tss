@@ -2,12 +2,20 @@
 	backgroundColor: "white",
 	backgroundImage:"/images/bg_gen.png"
 },
-".boxcontainer": {
+".boxcontainer[platform=ios]": {
 	backgroundColor:"transparent",
 	bottom:0,
 	left:0,
 	right:0,
 	top:80,
+	layout:"vertical"
+},
+".boxcontainer[platform=android]": {
+	backgroundColor:"transparent",
+	bottom:0,
+	left:0,
+	right:0,
+	top:92,
 	layout:"vertical"
 },
 ".option": {
@@ -54,11 +62,18 @@
 	font:{fontSize:18},
 	left:25
 },
-".horBx": {
+".horBx[platform=ios]": {
 	layout:"horizontal",
 	left:10,
 	right:10,
-	height:28,
+	height:32,
+	top:5
+},
+".horBx[platform=android]": {
+	layout:"horizontal",
+	left:10,
+	right:10,
+	height:38,
 	top:5
 },
 ".labelSw": {
@@ -82,15 +97,17 @@
 },
 ".fecha": {
 	hintText:"dd/mm/aa",
-	width:100,
+	width:120,
 	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	left:3
+	left:3,
+	editable: false 
 },
 ".hora": {
-	hintText:"hh:mm am/pm",
-	width:125,
+	hintText:"hh:mm",
+	width:105,
 	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	left:3
+	left:3,
+	editable: false 
 },
 ".asesor": {
 	hintText:"seleccionar",

@@ -2,7 +2,7 @@
 	<Window id="win" class="container">
     	<View class="navBar">
             <Label class="leftButton" onClick="back"></Label>
-            <Label class="title">Regresar a la App</Label>
+            <Label class="title" onClick="back">Regresar a la App</Label>
         </View>
         <WebView id="webView"></WebView>
 	</Window>

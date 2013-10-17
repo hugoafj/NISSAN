@@ -11,27 +11,27 @@
 				<Label class="labelGB">Mantenimiento</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch" onChange="selectMan"></Switch>
-				<Label class="labelSw" width="90">5000km</Label>
-				<Switch class="switch" onChange="selectMan"></Switch>
+				<Switch class="switch" onChange="selectMan" valor="6"></Switch>
+				<Label class="labelSw" width="90" >5000km</Label>
+				<Switch class="switch" onChange="selectMan" valor="2"></Switch>
 				<Label class="labelSw">30km</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch" onChange="selectMan"></Switch>
-				<Label class="labelSw" width="90">10000km</Label>
-				<Switch class="switch" onChange="selectMan"></Switch>
+				<Switch class="switch" onChange="selectMan" valor="7"></Switch>
+				<Label class="labelSw" width="90" >10000km</Label>
+				<Switch class="switch" onChange="selectMan" valor="3"></Switch>
 				<Label class="labelSw">40km</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch" onChange="selectMan"></Switch>
+				<Switch class="switch" onChange="selectMan" valor="8"></Switch>
 				<Label class="labelSw" width="90">15000km</Label>
-				<Switch class="switch" onChange="selectMan"></Switch>
+				<Switch class="switch" onChange="selectMan" valor="4"></Switch>
 				<Label class="labelSw">50km</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch" onChange="selectMan"></Switch>
+				<Switch class="switch" onChange="selectMan" valor="1"></Switch>
 				<Label class="labelSw" width="90">20km</Label>
-				<Switch class="switch" onChange="selectMan"></Switch>
+				<Switch class="switch" onChange="selectMan" valor="5"></Switch>
 				<Label class="labelSw">60km</Label>
 			</View>
 			
@@ -40,25 +40,25 @@
 				<Label class="labelGB">Reparacion</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch" onChange="selectRep"></Switch>
+				<Switch class="switch" onChange="selectRep" valor="2"></Switch>
 				<Label class="labelSw" width="64">Afinacion</Label>
-				<Switch class="switch" onChange="selectRep"></Switch>
+				<Switch class="switch" onChange="selectRep" valor="6"></Switch>
 				<Label class="labelSw">Detallado</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch" onChange="selectRep"></Switch>
+				<Switch class="switch" onChange="selectRep" valor="3"></Switch>
 				<Label class="labelSw" width="64">Frenos</Label>
-				<Switch class="switch" onChange="selectRep"></Switch>
+				<Switch class="switch" onChange="selectRep" valor="7"></Switch>
 				<Label class="labelSw">transmision</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch" onChange="selectRep"></Switch>
+				<Switch class="switch" onChange="selectRep"valor="4"></Switch>
 				<Label class="labelSw" width="64">Suspencion</Label>
-				<Switch class="switch" onChange="selectRep"></Switch>
+				<Switch class="switch" onChange="selectRep" valor="8"></Switch>
 				<Label class="labelSw">Garantia</Label>
 			</View>
 			<View class="horBx">
-				<Switch class="switch" onChange="selectRep"></Switch>
+				<Switch class="switch" onChange="selectRep" valor="5"></Switch>
 				<Label class="labelSw" width="64">Motor</Label>
 			</View>
 			
@@ -66,13 +66,17 @@
 			<Label class="labelHora">Espeficicar Dia, Hora y Asesor</Label>
 			<View class="horBx">
 				<Label class="labelSw">Dia:</Label>
-				<TextField id="fecha" class="fecha"/>
+				<TextField id="fecha" class="fecha" onClick="openDatePicker"/>
 				<Label  class="labelSw">Hora:</Label>
-				<TextField id="hora" class="hora"/>
+				<TextField id="hora" class="hora" onClick="openTimePicker"/>
 			</View>
 			<View class="horBx">
+                <Label class="labelSw">Sucursal:</Label>
+                <TextField id="txt_suc" width="200" class="asesor" value="Rio Tijuana" enabled="false" onClick="openSucoptions" />
+            </View>
+			<View class="horBx">
 				<Label class="labelSw">Asesor:</Label>
-				<TextField class="asesor" value="Hugo Armando Flores" enabled="false" />
+				<TextField id="txt_ase" class="asesor" enabled="false"  onClick="openAseOptions" />
 			</View>
 			<View height="50">
 				<Button class="regButton" onClick="cancelar"></Button>

@@ -3,9 +3,16 @@
 	backgroundImage:"/images/bg_gen.png",
 	layout:"vertical"
 },
-".titleBar": {
+".titleBar[platform=ios]": {
 	backgroundImage: "/images/titleBar.png",
 	top:80,
+	left:15,
+	right:15,
+	height:35
+},
+".titleBar[platform=android]": {
+	backgroundImage: "/images/titleBar.png",
+	top:94,
 	left:15,
 	right:15,
 	height:35

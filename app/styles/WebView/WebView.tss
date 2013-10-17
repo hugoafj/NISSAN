@@ -14,7 +14,8 @@
 	text:" < ",
 	color:"white",
 	visible:true
-},".leftButton[platform=android]": {
+},
+".leftButton[platform=android]": {
 	width:10,
 	height:20,
 	top:10,
