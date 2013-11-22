@@ -4,8 +4,12 @@
 			<Label class="loginTitle">Registro</Label>
 		</View>
 		<ScrollView class="loginContent">
-			<Label class="emailLabel">Nombre</Label>
+			<Label class="emailLabel">Nombre(s)</Label>
 			<TextField id="nombre" class="emailTxt"/>
+			<Label class="emailLabel">Apellido Paterno</Label>
+            <TextField id="App" class="emailTxt"/>
+            <Label class="emailLabel">Apellido Materno</Label>
+            <TextField id="Apm" class="emailTxt"/>
 			<Label class="emailLabel">Facebook y/o e-mail</Label>
 			<TextField id="email" class="emailTxt"/>
 			<Label class="emailLabel">Auto</Label>

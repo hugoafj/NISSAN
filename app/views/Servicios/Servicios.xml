@@ -70,13 +70,13 @@
 				<Label  class="labelSw">Hora:</Label>
 				<TextField id="hora" class="hora" onClick="openTimePicker"/>
 			</View>
-			<View class="horBx">
+			<View class="horBx" onClick="openSucoptions" >
                 <Label class="labelSw">Sucursal:</Label>
-                <TextField id="txt_suc" width="200" class="asesor" value="Rio Tijuana" enabled="false" onClick="openSucoptions" />
+                <TextField id="txt_suc" width="200" class="asesor" value="Rio Tijuana" enabled="false" touchEnabled="false"/>
             </View>
-			<View class="horBx">
+			<View class="horBx"  onClick="openAseOptions">
 				<Label class="labelSw">Asesor:</Label>
-				<TextField id="txt_ase" class="asesor" enabled="false"  onClick="openAseOptions" />
+				<TextField id="txt_ase" class="asesor" enabled="false" touchEnabled="false" />
 			</View>
 			<View height="50">
 				<Button class="regButton" onClick="cancelar"></Button>

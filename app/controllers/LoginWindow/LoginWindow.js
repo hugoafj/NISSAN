@@ -26,7 +26,7 @@ function entrar(){
 
 if(Ti.App.Properties.hasProperty("usuario")){
     var tempData = {email:Ti.App.Properties.getString("usuario"),password:Ti.App.Properties.getString("pass")};
-   // Ti.API.info("123 "+JSON.stringify(tempData));
+   //Ti.API.info("123 "+JSON.stringify(tempData));
     HTTP.request({format:"JSON",type:"POST",url:"http://www.isdnetworks.com/nissan/ws/loginUsuarios.php",data:tempData}, function(_event){
         //Ti.API.info("123 "+JSON.stringify(_event));
         if(_event._result == 1){

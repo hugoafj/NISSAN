@@ -63,16 +63,16 @@ function openAseOptions(){
     var dialog = Ti.UI.createOptionDialog(opts);
     dialog.show();
     dialog.addEventListener("click",function(_event){
-        //Ti.API.info(JSON.stringify(_event));
+        Ti.API.info(JSON.stringify(asesores[_event.index].nombre));
         asesor = asesores[_event.index].id;
-        $.txt_ase.value = asesores[_event.index].name;
+        $.txt_ase.value = asesores[_event.index].nombre;
     });
 }
 
 function finalizar(){
     if(count == 1){
         if($.fecha.value.length > 7){
-            if($.hora.value.length > 7){
+            if($.hora.value.length > 4){
                 var tempData = {tipo:tipo,servicio:value,fecha:$.fecha.value,hora:$.hora.value,sucursal:sucursal,asesor:asesor,email:args.mail,password:args.pass,idUsuario:args.idCliente};
                 //Ti.API.info("123 "+JSON.stringify(tempData));
                 HTTP.request({format:"JSON",type:"POST",url:"http://isdnetworks.com/nissan/ws/guardarCita.php",data:tempData}, function(_event){
@@ -130,15 +130,17 @@ function openDatePicker(){
     var picker = Ti.UI.createPicker({
       type:Ti.UI.PICKER_TYPE_DATE,
       minDate:new Date(),
-      maxDate:new Date(2014,11,31),
+      maxDate:new Date(2015,11,31),
       value:new Date(),
       top:50
     });
-    var dateView = Ti.UI.createView({top:0,height:50,backgroundColor:"black"});
-    var dateButton = Ti.UI.createButton({right:10,title:"Cerrar"});
     
-    $.win.add(picker);
+    var dateView = Ti.UI.createView({top:0,backgroundImage:"/images/bgBlackOpacity39.png"});
+    
+    var dateButton = Ti.UI.createButton({top:2,right:10,title:"Cerrar"});
+    
     $.win.add(dateView);
+    $.win.add(picker);
     dateView.add(dateButton);
     
     dateButton.addEventListener("click",function(){
@@ -147,9 +149,10 @@ function openDatePicker(){
     });
     
     picker.addEventListener('change',function(e){
-      Ti.API.info("User selected date: " + e.value.toLocaleString());
-      var tempDate = new Date(e.value.toLocaleString());
-      $.fecha.value = tempDate.getDate()+"/"+(tempDate.getDate()+1)+"/"+tempDate.getFullYear();$.hora.value = tempDate.getHours()+":"+tempDate.getMinutes()+" "+e.value.toLocaleString().substring(e.value.toLocaleString().length-6, e.value.toLocaleString().length-4);
+      Ti.API.info("User selected date: " + e.value.toUTCString());
+      var tempDate = new Date(e.value.toUTCString());
+      $.fecha.value = tempDate.getDate()+"/"+(tempDate.getMonth()+1)+"/"+tempDate.getFullYear();
+      $.hora.value = ((tempDate.getHours() < 10)?"0"+tempDate.getHours():tempDate.getHours())+":"+((tempDate.getMinutes() < 10)?"0"+tempDate.getMinutes():tempDate.getMinutes());//+" "+e.value.toUTCString().substring(e.value.toUTCString().length-6, e.value.toUTCString().length-4);
     });
     $.fecha.blur();
 }
@@ -158,16 +161,14 @@ function openTimePicker(){
     $.hora.blur();
     var picker = Ti.UI.createPicker({
       type:Ti.UI.PICKER_TYPE_TIME,
-      minDate:new Date(),
-      maxDate:new Date(2014,11,31),
       value:new Date(),
       top:50
     });
-    var dateView = Ti.UI.createView({top:0,height:50,backgroundColor:"black"});
-    var dateButton = Ti.UI.createButton({right:10,title:"Cerrar"});
+    var dateView = Ti.UI.createView({top:0,backgroundImage:"/images/bgBlackOpacity39.png"});
+    var dateButton = Ti.UI.createButton({top:2,right:10,title:"Cerrar"});
     
-    $.win.add(picker);
     $.win.add(dateView);
+    $.win.add(picker);
     dateView.add(dateButton);
     dateButton.addEventListener("click",function(){
         $.win.remove(picker);
@@ -175,9 +176,9 @@ function openTimePicker(){
     });
     
     picker.addEventListener('change',function(e){
-      Ti.API.info("User selected date: " + e.value.toLocaleString());
-      var tempDate = new Date(e.value.toLocaleString());
-      $.hora.value = tempDate.getHours()+":"+tempDate.getMinutes();
+      Ti.API.info("User selected hour: " + e.value.toUTCString());
+      var tempDate = new Date(e.value.toUTCString());
+      $.hora.value = ((tempDate.getHours() < 10)?"0"+tempDate.getHours():tempDate.getHours())+":"+((tempDate.getMinutes() < 10)?"0"+tempDate.getMinutes():tempDate.getMinutes());
     });
     $.hora.blur();
 }
