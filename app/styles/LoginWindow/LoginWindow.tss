@@ -5,7 +5,7 @@
 },
 ".titleBar[platform=ios]": {
 	backgroundImage: "/images/titleBar.png",
-	top:80,
+	top:110,
 	left:15,
 	right:15,
 	height:35
@@ -29,15 +29,15 @@
 	left:18,
 	right:18,
 	layout:"vertical",
-	height:190,
-	backgroundImage: "/images/bgbox.png",
+	height:220,
+	backgroundImage: "/images/bgbox.png"
 },
 ".loginContent[platform=android]": {
 	left:18,
 	right:18,
 	layout:"vertical",
 	height:230,
-	backgroundImage: "/images/bgbox.png",
+	backgroundImage: "/images/bgbox.png"
 },
 ".emailLabel": {
 	top:5,
@@ -54,6 +54,14 @@
 	top:5,
 	left:10,
 	color:"#4b4b4b"
+},
+".olvcon": {
+	top:5,
+	right:20,
+	color:"blue",
+	font:{
+		fontSize:12
+	}
 },
 ".passTxt": {
 	left:10,

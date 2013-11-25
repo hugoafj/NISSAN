@@ -8,6 +8,7 @@
 			<TextField id="email" class="emailTxt"/>
 			<Label class="passLabel">Contraseña</Label>
 			<TextField id="pass" class="passTxt"/>
+			<Label class="olvcon" onClick="sendMail">olvide mi contraseña!</Label>
 			<View >
 				<Button class="regButton" onClick="openRegistro"></Button>
 				<Button class="submitButton" onClick="entrar"></Button>

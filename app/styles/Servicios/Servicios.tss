@@ -7,7 +7,7 @@
 	bottom:0,
 	left:0,
 	right:0,
-	top:80,
+	top:110,
 	layout:"vertical"
 },
 ".boxcontainer[platform=android]": {

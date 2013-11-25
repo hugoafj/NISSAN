@@ -5,7 +5,7 @@
 },
 ".titleBar[platform=ios]": {
 	backgroundImage: "/images/titleBar.png",
-	top:80,
+	top:110,
 	left:15,
 	right:15,
 	height:35

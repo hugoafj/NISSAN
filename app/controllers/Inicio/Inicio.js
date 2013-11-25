@@ -4,6 +4,10 @@ function openServicios(){
 	Alloy.createController("Servicios/Servicios",{mail:args.mail,pass:args.pass,idCliente:args.idCliente}).getView().open();
 }
 
+function openEstadoCitas(){
+	Alloy.createController("Servicios/EstadoCitas",{mail:args.mail,pass:args.pass,idCliente:args.idCliente}).getView().open();
+}
+
 function openNotificaciones(){
 	Alloy.createController("Notificaciones/Notificaciones").getView().open();
 }

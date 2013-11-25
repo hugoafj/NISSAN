@@ -1,5 +1,5 @@
-".container": {
-	backgroundColor: "white",
+".container":{
+	backgroundColor:"white",
 	backgroundImage:"/images/bg_gen.png"
 },
 ".boxcontainer[platform=ios]": {
@@ -7,7 +7,7 @@
 	bottom:0,
 	left:0,
 	right:0,
-	top:110,
+	top:80,
 	layout:"vertical"
 },
 ".boxcontainer[platform=android]": {
@@ -22,7 +22,7 @@
 	backgroundImage:"/images/option_red.png",
 	height:30,
 	width:200,
-	top:5,
+	top:110,
 	left:10
 },
 ".labelOption": {
@@ -42,42 +42,18 @@
 	height:15,
 	width:15
 },
-".regButton": {
-	left:15,
+".submitButton": {
+	right:15,
 	top:10,
 	height:40,
 	width:120,
 	//borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
-	backgroundImage: "/images/cancelar.png"
+	backgroundImage: "/images/finalizar.png"
 },
-".imagen": {
-	top:20,
-	left:10,
-	height:60,
-	width:150,
-	backgroundColor:"transparent",
-	layout:"horizontal"
+".bottomContainer":{
+	bottom:10
 },
-".imagenVel": {
-	height:50,
-	width:50,
-	backgroundImage: "/images/vel.png"
-},
-".imagenLogo": {
-	height:40,
-	width:90,
-	backgroundImage: "/images/pruebaLogo.png"
-},
-".labelDesc": {
-	color:"#333333",
-	font:{fontSize:13},
-	top:10,
-	left:10,
-	right:10
-},
-".labelPage": {
-	color:"#blue",
-	font:{fontSize:13},
-	left:10,
-	right:10
+".table":{
+	top:140,
+	bottom:55
 }

@@ -17,12 +17,42 @@ function entrar(){
 				alert(_event._data.error);
 			}
 		}else{
-			alert("Oops! something went wrong, please try again.");
+			alert("Oops! algo salio mal, por favor intente de nuevo.");
 		}
 	});
 }
 
+function sendMail(){
+	if($.email.value.length > 3){
+		  var dialog = Ti.UI.createAlertDialog({
+		    cancel: 1,
+		    buttonNames: ['OK', 'Cancelar'],
+		    message: 'Recibira un correo electronico con la informacion de su cuenta.',
+		    title: 'Olvide mi contraseña'
+		  });
+		  dialog.addEventListener('click', function(e){
+		    if (e.index == 0){
+		      		var tempData = {email:$.email.value};
+					HTTP.request({format:"JSON",type:"POST",url:"http://isdnetworks.com/nissan/ws/recordatorioPassword.php",data:tempData}, function(_event){
+						//Ti.API.info("123 "+JSON.stringify(_event));
+						if(_event._result == 1){
+							if(_event._data.success == 1){
+							   alert("En breve recibira su informacion por correo electronico.");
+							}else{
+								alert(_event._data.error);
+							}
+						}else{
+							alert("Oops! algo salio mal, por favor intente de nuevo.");
+						}
+					});
+		      }
+		  });
+		  dialog.show();
+	}else{
+		alert("Por favor proporcione su correo electronico.");
+	}
 
+}
 
 if(Ti.App.Properties.hasProperty("usuario")){
     var tempData = {email:Ti.App.Properties.getString("usuario"),password:Ti.App.Properties.getString("pass")};
@@ -36,7 +66,7 @@ if(Ti.App.Properties.hasProperty("usuario")){
                 alert(_event._data.error);
             }
         }else{
-            alert("Oops! something went wrong, please try again.");
+            alert("Oops! algo salio mal, por favor intente de nuevo.");
         }
     });
 }

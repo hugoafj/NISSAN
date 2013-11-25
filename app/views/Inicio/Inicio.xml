@@ -7,6 +7,11 @@
 					<View class="vertLine"></View>
 					<View class="row"></View>
 				</View>
+				<View class="option" onClick="openEstadoCitas">
+					<Label class="labelOption">Estado de mis Citas</Label>
+					<View class="vertLine"></View>
+					<View class="row"></View>
+				</View>
 				<View class="option" onClick="openNotificaciones">
 					<Label class="labelOption">Eventos</Label>
 					<View class="vertLine"></View>

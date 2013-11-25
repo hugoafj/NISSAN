@@ -9,7 +9,7 @@
 ".leftButton[platform=ios]": {
 	width:24,
 	height:20,
-	top:10,
+	top:13,
 	left:10,
 	text:" < ",
 	color:"white",
@@ -32,6 +32,7 @@
 	backgroundColor:"red"
 },
 ".title[platform=ios]": {
+	top:15,
 	left:30,
 	color:"white",
 	font:{
@@ -46,5 +47,5 @@
 		fontSize:18,
 		fontFamily: 'ChampagneLimousines'
 	}
-},
+}
 // NAV BAR

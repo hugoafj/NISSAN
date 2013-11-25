@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="win" class="container">
+			<View class="option">
+				<Label class="labelOption">Estado de mis Citas</Label>
+				<View class="vertLine"></View>
+				<View class="row"></View>
+			</View>
+			<TableView class="table" id="table"></TableView>
+			<View height="50" class="bottomContainer">
+				<Button class="submitButton" onClick="finalizar"></Button>
+			</View>
+	</Window>
+</Alloy>

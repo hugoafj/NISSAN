@@ -85,7 +85,7 @@ function finalizar(){
                             alert(_event._data.error);
                         }
                     }else{
-                        alert("Oops! something went wrong, please try again.");
+                        alert("Oops! algo salio mal, por favor intente de nuevo.");
                     }
                 });
              }else{
@@ -120,7 +120,7 @@ function getAsesores(){
                 //alert(_event._data.error);
             }
         }else{
-            //alert("Oops! something went wrong, please try again.");
+            //alert("Oops! algo salio mal, por favor intente de nuevo.");
         }
     });
 }
